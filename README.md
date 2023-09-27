@@ -8,3 +8,6 @@ CPython offers the option to use C or C++. I will use C++; feel free to use eith
 
 The exercises are sorted by level:
 1. Beginner
+
+> [!NOTE]
+> For C or C++ compilation, I use a Docker image, but you can also use a virtual environment (venv).
