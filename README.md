@@ -21,3 +21,7 @@ The exercises are sorted by level:
 > - [C++ Object-Oriented Programming (in French)](https://openclassrooms.com/fr/courses/7137751-programmez-en-oriente-objet-avec-c)
 > - [Python basics (in French)](https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python)
 > - [Python Object-Oriented Programming (in French)](https://openclassrooms.com/fr/courses/7150616-apprenez-la-programmation-orientee-objet-avec-python)
+
+## Organization
+
+I use Git Flow, so in the `master` branch, you can find the finished exercises with my solutions. In the `develop` branch and subbranches, you can find the most recently added exercises, which may be unfinished and/or without my solutions.
