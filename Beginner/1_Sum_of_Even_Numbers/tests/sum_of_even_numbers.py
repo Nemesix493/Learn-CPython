@@ -3,6 +3,11 @@ import random
 
 
 class TestSumOfEvenNumbers(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        print("Testing Sum Of Even Numbers from a list with CPython")
+        return super().setUpClass()
+
     @staticmethod
     def gen_random_list() -> list[int]:
         return [
