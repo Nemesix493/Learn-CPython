@@ -1,5 +1,5 @@
 #include "sum_of_even_numbers.hpp"
-
+// Function definition
 int sumOfEvenNumbers(std::vector<int> int_list)
 {
     int result = 0;
