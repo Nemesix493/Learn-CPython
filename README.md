@@ -1,5 +1,7 @@
 # Learn-CPython
 
+version = 0.0.1
+
 Here, you can find some exercises that I used to learn CPython.
 
 For each exercise, you can find my solution. This is not the absolute one!
