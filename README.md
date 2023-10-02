@@ -1,6 +1,6 @@
 # Learn-CPython
 
-version = 0.0.1
+version = 0.0.2
 
 Here, you can find some exercises that I used to learn CPython.
 
