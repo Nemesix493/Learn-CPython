@@ -9,7 +9,10 @@ For each exercise, you can find my solution. This is not the absolute one!
 CPython offers the option to use C or C++. I will use C++; feel free to use either one.
 
 The exercises are sorted by level:
-1. Beginner
+
+**Beginner**
+1. [Sum of Even Numbers](Beginner/1_Sum_of_Even_Numbers/)
+2. [Count Vowels](Beginner/2_Count_Vowels/)
 
 > [!NOTE]
 > For C or C++ compilation, I use a Docker image, but you can also use a virtual environment (venv).
