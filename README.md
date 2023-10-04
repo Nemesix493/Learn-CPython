@@ -1,6 +1,6 @@
 # Learn-CPython
 
-version = 0.0.2
+version = 0.0.3
 
 Here, you can find some exercises that I used to learn CPython.
 
@@ -13,6 +13,7 @@ The exercises are sorted by level:
 **Beginner**
 1. [Sum of Even Numbers](Beginner/1_Sum_of_Even_Numbers/)
 2. [Count Vowels](Beginner/2_Count_Vowels/)
+3. [Factorial Calculation](Beginner/3_Factorial_Calculation/)
 
 > [!NOTE]
 > For C or C++ compilation, I use a Docker image, but you can also use a virtual environment (venv).
