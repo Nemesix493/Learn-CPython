@@ -14,7 +14,7 @@ class TestFactorialCalculation(unittest.TestCase):
             return index * cls.factorial_calculation(index - 1)
         else:
             return 1
-    
+
     def test_factorial_calculation(self):
         random_int = random.randint(10, 20)
         expected = self.factorial_calculation(random_int)
@@ -22,7 +22,7 @@ class TestFactorialCalculation(unittest.TestCase):
             from CPythonLearn3 import factorial_calculation
             self.assertEqual(
                 expected,
-                factorial_calculation(random_int),
+                self.factorial_calculation(random_int),
                 f'The !{random_int} should be : {expected}'
             )
         except ImportError as e:
