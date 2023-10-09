@@ -11,6 +11,7 @@ CPython offers the option to use C or C++. I will use C++; feel free to use eith
 The exercises are sorted by level:
 
 **Beginner**
+
 1. - [x] [Sum of Even Numbers](Beginner/1_Sum_of_Even_Numbers/)
 2. - [x] [Count Vowels](Beginner/2_Count_Vowels/)
 3. - [x] [Factorial Calculation](Beginner/3_Factorial_Calculation/)
@@ -23,7 +24,9 @@ The exercises are sorted by level:
 10. - [ ] Pattern Printing
 11. - [ ] Fibonacci Calculation
 12. - [ ] Password Validation
+
 **Intermediate**
+
 13. - [ ] Task Manager
 14. - [ ] Advanced Calculator
 15. - [ ] File Management System
@@ -36,7 +39,9 @@ The exercises are sorted by level:
 22. - [ ] Hangman Game
 23. - [ ] Currency Converter
 24. - [ ] Card Game
+
 **Confirmed**
+
 25. - [ ] Chess Game
 26. - [ ] Recommendation System
 27. - [ ] Advanced Data Analysis
@@ -49,7 +54,9 @@ The exercises are sorted by level:
 34. - [ ] Instant Messaging System
 35. - [ ] Speech Recognition System
 36. - [ ] Artificial Intelligence (AI)
+
 **Expert**
+
 37. - [ ] Advanced Movie Recommendation System
 38. - [ ] Multiplayer Online Chess Game
 39. - [ ] Automated Trading System
