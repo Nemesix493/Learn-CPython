@@ -5,7 +5,7 @@ static PyObject* factorialCalculationCpp(PyObject* self, PyObject* args)
 {
     PyObject* pyInt;
 
-    if(!PyArg_ParseTuple(args, "0", &pyInt))
+    if(!PyArg_ParseTuple(args, "O", &pyInt))
     {
         // Raise exception if no arguments
         PyErr_SetString(PyExc_TypeError, "Invalid argument");
