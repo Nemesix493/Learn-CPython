@@ -20,7 +20,7 @@ static PyObject* factorialCalculationCpp(PyObject* self, PyObject* args)
         return nullptr;
     }
     
-    return PyLong_FromLong(
+    return PyLong_FromLongLong(
         factorialCalculation(PyLong_AsLong(pyInt))
     );
 }

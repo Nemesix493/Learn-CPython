@@ -3,6 +3,6 @@
 
 // Prototype definition
 
-int factorialCalculation(int index);
+long long int factorialCalculation(int index);
 
 #endif
