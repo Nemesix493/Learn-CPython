@@ -22,7 +22,7 @@ class TestFactorialCalculation(unittest.TestCase):
             from CPythonLearn3 import factorial_calculation
             self.assertEqual(
                 expected,
-                self.factorial_calculation(random_int),
+                factorial_calculation(random_int),
                 f'The !{random_int} should be : {expected}'
             )
         except ImportError as e:

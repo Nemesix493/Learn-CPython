@@ -8,7 +8,7 @@ Name the package `CPythonLearn3` and the function `factorial_calculation`.
 
 The unittest need to import the function like:
 ```Python
-    from CPythonLearn2 import count_vowels
+    from CPythonLearn3 import factorial_calculation
 ```
 
 ## Testing your code
