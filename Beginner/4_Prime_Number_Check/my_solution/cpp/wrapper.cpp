@@ -1,7 +1,7 @@
 #include <Python.h>
-#include "factorial_calculation.hpp"
+#include "prime_number_check.hpp"
 
-static PyObject* factorialCalculationCpp(PyObject* self, PyObject* args)
+static PyObject* primeNumberCheckCpp(PyObject* self, PyObject* args)
 {
     PyObject* pyInt;
 
@@ -20,28 +20,33 @@ static PyObject* factorialCalculationCpp(PyObject* self, PyObject* args)
         return nullptr;
     }
     
-    return PyLong_FromLongLong(
-        factorialCalculation(PyLong_AsLong(pyInt))
-    );
+    if(primeNumberCheck(PyLong_AsLong(pyInt)))
+    {
+        return Py_True;
+    }
+    else
+    {
+        return Py_False;
+    }
 }
 
 // Define methods
 static PyMethodDef myMethods[] = {
-    {"factorial_calculation", factorialCalculationCpp, METH_VARARGS, "Calc factorial of a number (int)"},
+    {"prime_number_check", primeNumberCheckCpp, METH_VARARGS, "Calc check if a numbber is a prime number (int)"},
     {NULL, NULL, 0, NULL}
 };
 
 // Define module
 static PyModuleDef myModule = {
     PyModuleDef_HEAD_INIT,
-    "factorial_calculation",
-    "Calc factorial of a number (int)",
+    "prime_number_check",
+    "Calc check if a numbber is a prime number (int)",
     -1,
     myMethods
 };
 
 // Initialize module
-PyMODINIT_FUNC PyInit_CPythonLearn3()
+PyMODINIT_FUNC PyInit_CPythonLearn4()
 {
     return PyModule_Create(&myModule);
 }

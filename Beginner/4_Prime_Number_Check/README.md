@@ -1,14 +1,14 @@
-# Factorial Calculation
+# Prime Number Check
 
 ## Exercise Statement
 
-Write a CPython function that calculates the factorial of a given number (e.g., 5! = 5 * 4 * 3 * 2 * 1).
+Write a CPython function that takes a number as input and determines if it is a prime number.
 
-Name the package `CPythonLearn3` and the function `factorial_calculation`.
+Name the package `CPythonLearn4` and the function `prime_number_check`.
 
 The unittest need to import the function like:
 ```Python
-    from CPythonLearn3 import factorial_calculation
+    from CPythonLearn4 import prime_number_check
 ```
 
 ## Testing your code
