@@ -1,4 +1,4 @@
-# Count Vowels
+# Factorial Calculation
 
 ## Exercise Statement
 
