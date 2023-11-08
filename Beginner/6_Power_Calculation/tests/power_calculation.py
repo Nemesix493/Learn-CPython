@@ -11,7 +11,7 @@ class TestPowerCalculation(unittest.TestCase):
     @staticmethod
     def get_power_calculation(base: int, exponent: int) -> int:
         return base**exponent
-    
+
     def test_power_calculation(self):
         try:
             from CPythonLearn6 import power_calculation
