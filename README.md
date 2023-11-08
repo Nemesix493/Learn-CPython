@@ -1,6 +1,6 @@
 # Learn-CPython
 
-version = 0.0.5
+version = 0.0.6
 
 Here, you can find some exercises that I used to learn CPython.
 
@@ -17,7 +17,7 @@ The exercises are sorted by level:
 3. - [x] [Factorial Calculation](Beginner/3_Factorial_Calculation/)
 4. - [x] [Prime Number Check](Beginner/4_Prime_Number_Check/)
 5. - [x] [String Reversal](Beginner/5_String_Reversal/)
-6. - [ ] Power Calculation
+6. - [x] [Power Calculation](Beginner/6_Power_Calculation/)
 7. - [ ] Average Calculation
 8. - [ ] Temperature Conversion
 9. - [ ] Palindrome Check
